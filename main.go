@@ -324,7 +324,7 @@ func isWorkingHour() bool {
 		log.Println("Nobody should be working on weekends...")
 		return false
 	}
-	return true
+	return false
 }
 
 func disableNode(buildBox string) {
